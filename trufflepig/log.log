@@ -1,0 +1,116 @@
+--------------------------------------------------------------------------------
+/Users/zfasel/snbl/build/nRF5x-Command-Line-Tools_9_7_3_OSX/nrfjprog/nrfjprog -f nrf52 --eraseall --log
+nrfjprog version 9.7.3
+--------------------------------------------------------------------------------
+nRF_open_dll
+. nRF52_open_dll
+. . nRF52_dll_version
+nRF_enum_emu_snr
+. nRF52_enum_emu_snr
+. . nRF52_enum_emu_snr
+nRF_enum_emu_snr
+. nRF52_enum_emu_snr
+. . nRF52_enum_emu_snr
+nRF_connect_to_emu_with_snr
+. nRF52_connect_to_emu_with_snr
+. . nRF52_is_connected_to_emu
+. . nRF52_enum_emu_snr
+. . nRF52_connect_to_emu_with_snr
+. . . nRF52_connect_to_emu_without_snr
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Jul  4 2018 16:22:02
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 S/N: 682455314
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+. . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0019ms, 0021ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:003 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19080
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0020ms, 0022ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:003 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0020ms, 0022ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:023 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0024ms total)  
+. . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:026 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: /Applications/SEGGER/JLink/JLinkDevices.xml
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0026ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:026 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	/Applications/SEGGER/JLink/JLinkDevices.xml evaluated successfully.
+. . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+. . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0020ms, 0045ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:046 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0046ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:047 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0046ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:047 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0047ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:048 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0047ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:048 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+. . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0005ms, 0052ms total)  
+. . . nRF52_connect_to_emu_without_snr:	JLink:	TA1C5E380 000:053 
+. . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+. . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0053ms total)  
+nRF_read_device_version
+. nRF52_read_device_version
+. . nRF52_is_connected_to_emu
+. . nRF52_is_connected_to_emu:	JLink:	TA1C5E380 000:054 
+. . nRF52_is_connected_to_emu:	JLink:	JLINK_IsOpen()
+. . nRF52_is_connected_to_emu:	JLink:	  returns 0x01
+. . nRF52_is_connected_to_emu:	JLink:	 (0000ms, 0053ms total)  
+. . nRF52_is_connected_to_device
+. . nRF52_is_connected_to_device:	JLink:	TA1C5E380 000:055 
+. . nRF52_is_connected_to_device:	JLink:	JLINK_IsConnected()
+. . nRF52_is_connected_to_device:	JLink:	  returns FALSE
+. . nRF52_is_connected_to_device:	JLink:	 (0000ms, 0053ms total)  
+. . nRF52_readback_status
+. . . nRF52_is_ctrl_ap_available
+. . . . nRF52_read_access_port_register
+. . . . . nRF52_coresight_configure
+. . . . . nRF52_coresight_configure:	JLink:	TA1C5E380 000:055 
+. . . . . nRF52_coresight_configure:	JLink:	JLINK_CORESIGHT_Configure()
+. . . . . nRF52_coresight_configure:	JLink:	  returns 0
+. . . . . nRF52_coresight_configure:	JLink:	 (0103ms, 0156ms total)  
+. . . . . nRF52_power_debug_and_system_regions
+. . . . . . nRF52_write_debug_port_register
+. . . . . . nRF52_write_debug_port_register:	JLink:	TA1C5E380 000:159 
+. . . . . . nRF52_write_debug_port_register:	JLink:	JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)
+. . . . . . nRF52_write_debug_port_register:	JLink:	  returns -1
+. . . . . . nRF52_write_debug_port_register:	JLink:	 (0002ms, 0158ms total)  
+. . . . . . nRF52_write_debug_port_register:	JLinkARM.dll CORESIGHT_WriteAPDPReg returned error -1.
+
+. . . . . nRF52_power_debug_and_system_regions:	JLinkARM.dll CORESIGHT_WriteAPDPReg returned error -102.
+
+nRF_close_dll
+. nRF52_close_dll
+. . nRF52_is_connected_to_emu
+. . nRF52_is_connected_to_emu:	JLink:	TA1C5E380 000:163 
+. . nRF52_is_connected_to_emu:	JLink:	JLINK_IsOpen()
+. . nRF52_is_connected_to_emu:	JLink:	  returns 0x01
+. . nRF52_is_connected_to_emu:	JLink:	 (0000ms, 0158ms total)  
+. . nRF52_disconnect_from_emu
+. . . nRF52_is_connected_to_device
+. . . nRF52_is_connected_to_device:	JLink:	TA1C5E380 000:164 
+. . . nRF52_is_connected_to_device:	JLink:	JLINK_IsConnected()
+. . . nRF52_is_connected_to_device:	JLink:	  returns FALSE
+. . . nRF52_is_connected_to_device:	JLink:	 (0001ms, 0160ms total)  
+. . . nRF52_unpower_debug_and_system_regions
+. . nRF52_disconnect_from_emu:	JLink:	TA1C5E380 000:179 
+. . nRF52_disconnect_from_emu:	JLink:	JLINK_Close()
