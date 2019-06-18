@@ -1,7 +1,7 @@
 PROJECT_NAME     := truffle_pig_dc26
 TARGETS          := nrf52832_xxaa
 OUTPUT_DIRECTORY := _build
-NRFJPROG_DIR := /Users/zfasel/snbl/build/nRF5x-Command-Line-Tools_9_7_3_OSX/nrfjprog
+NRFJPROG_DIR := /Users/zfasel/repos/snbl/build/nRF5x-Command-Line-Tools_9_7_3_OSX/nrfjprog
 
 SDK_ROOT := ../build/nRF5_SDK_15.0.0_a53641a
 PROJ_DIR := ./

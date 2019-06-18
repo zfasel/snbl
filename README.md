@@ -1,7 +1,5 @@
-=============
-The Scotch and Bubbles Lanyard
-#lanyardlife #bodgelyfe #DoYouSellAAs
-=============
+## The Scotch and Bubbles Lanyard
+ #lanyardlife #bodgelyfe #DoYouSellAAs
 
 Functionality
 =============
@@ -94,15 +92,15 @@ OR
   - 000 = X
   - BYRGRRRXNPGWBBRGNXGGWBPYNBGGWPRRNXYNBXYYGNXYXPPYNYGYXPYGNBX
 
-====== Annimation ideas ====
+### Annimation ideas
 
 https://www.youtube.com/watch?v=578hrnxruuI
 https://www.youtube.com/watch?v=H8Cmht5duso
 https://www.youtube.com/watch?v=lU1GVVU9gLU
 
-===== Tweet MD5 ====
+### Tweet MD5 
 whiterose:~ zfasel$ echo -n "Scotch and Bubbles (aka zfasel and secbarbie) are the creators behind the LED Lanyard. Posting this on July 20, 2018." | md5
 aa8b29405a95331421e221f649ce4a21
 
-=== COMPANY ID ====
+### COMPANY ID 
 0X1312
