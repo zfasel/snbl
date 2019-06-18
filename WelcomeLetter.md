@@ -1,4 +1,4 @@
-==================
+
 Quick Start Guide
 ==================
 
@@ -7,7 +7,7 @@ Quick Start Guide
  - The Per-badge cost is ~$40 in parts and is funded from Scotch and Bubbles' pockets. If you want to contribute your share, please make a donation to a charity in the same or greater ammount.
 
 
-==================
+
 Congratulations :)
 ==================
 
@@ -41,7 +41,7 @@ By receiving this badge, you hearby accept the following Terms of Service.
  - You will make a best effort attempt to go see Scotch and Bubbles play at the DEFCON evening party, or otherwise make up a worthy excuse on why you couldn't make it.
  - Our privacy policy has been updated, and with it, citizens of the EU are required to expose their privacy policy (herein known as PP) to everyone they encounter. Just no more flooding my inbox with your PP.
 
-===================
+
 The Hardware
 ===================
 
@@ -59,7 +59,7 @@ And the following non-electronic Hardware
 - 1 Lanyard Badge Clasp
 - 1 Sex Bolt (giggity) - aka The Chicago Screw (giggity goo)
 
-===================
+
 I'VE GOT THE POWER
 ===================
 
@@ -71,7 +71,7 @@ Second, power draw - at the default brightness when you boot, the entirety of th
 
 Now, if you crank it to max brightness and remove any limitations, it has the possibility of drawing just over 3000ma on full brightness all white. Clearly, you won't be able to keep up with that, even with a fancy USB power supply. As such, we've software limited the brightness to pull no more than 975ma at max draw. You're free to remove this limitation if you get yourself one of those high-output fancy USB power packs to power the badge (which ZF uses for his MEGALANYARD) but many of the cheaper USB power packs will only provide 1 amp.
 
-===================
+
 How to use your lanyard
 ===================
 
@@ -93,7 +93,7 @@ By default, your lanyard will launch into a default wave of color. To change you
  - Quick double-tap of option button - This will change the speed of the effect
  - Hold for 2 seconds - this will change the brightness, cycling through 5 different levels. The default is middle.
 
-===================
+
 Why Is My Lanyard Randomly Changing Modes and the button doesn't work?
 ===================
 
@@ -104,7 +104,7 @@ root:#>
 
 If your badge is within an unknown (because who knows how this will perform in the congested 2.4ghz environment that is DC) distance to Scotch or Bubbles, and either one of them are in party mode, your badge will become a slave to the music and dance along in (relative) sync. Find them. Party with them. You'll be glad you did.
 
-===================
+
 Programing / Source
 ===================
 
