@@ -1,5 +1,9 @@
 ## The Scotch and Bubbles Lanyard
  #lanyardlife #bodgelyfe #DoYouSellAAs
+ 
+ https://twitter.com/zfasel/status/1142902041175633921
+ 
+ https://twitter.com/SecBarbie/status/1028001591381483520
 
 Functionality
 =============
